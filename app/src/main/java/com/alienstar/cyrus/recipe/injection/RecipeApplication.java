@@ -16,6 +16,5 @@ public class RecipeApplication extends Application {
             favorites = new SharedPreferencesFavorites(this);
         }
         return favorites;
-
     }
 }
